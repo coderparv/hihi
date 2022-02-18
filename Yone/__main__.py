@@ -83,18 +83,14 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
-A telegram group management bot. I'm here to help you to manage your groups.
-I have lots of handy features such as:
-‣ Warning system
-‣ Artificial intelligence
-‣ Flood control system
-‣ Note keeping system
-‣ Filters keeping system
-‣ Approvals and much more.
+PM_START_TEXT = """ Hello student *{}*, My name is *{}*! 
+ made for your service related to education sort.
+I am here with amazing functions 👇
+‣ Updating you on latest books posted
+‣ You will get every possible thing related to CBSE , JEE and NEET exams here .
 
-So what are you waiting for?
-*Add me in your groups and give me full rights to make me function well.*
+NOW WHY ARE YOU WAITING?
+*GO TO THE BUTTONS BELOW TO ACCESS ALL EDUCATIONAL STUFFS💝✨.*
 """
 
 
@@ -164,7 +160,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="🔘BOOK STORE", url=f"https://t.me/+YVBwIkHbl7FhMjZl"),
     ],
     [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
