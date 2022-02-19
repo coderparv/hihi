@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello student *{}*, My name is My name is XYZ BOOKS [🤖](https://t.me/codesfru/35) 
+PM_START_TEXT = """ Hello student *{}*, My name is My name is [XYZ BOOKS🤖](https://t.me/codesfru/35) 
 made for your service related to educational sort.
 
 HIGLIGHTS 👇
@@ -163,18 +163,18 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="🔘BOOK STORE", url=f"https://t.me/+YVBwIkHbl7FhMjZl"),
+            text="BOOK STORE➕", url=f"https://t.me/+YVBwIkHbl7FhMjZl"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text=" ☑️CBSE XYZ", url="https://t.me/cbse_xyz"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="💝CBSE EXCLUSIVE", url="https://t.me/xyz_cbse"
         ),
     ],
     [
-        InlineKeyboardButton(text="Tools", callback_data="tools_back"),
+        InlineKeyboardButton(text="✔️JEE XYZ", callback_data="https://t.me/jee_xyz"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="✔️NEET XYZ", url="https://t.me/NEET_XYZ"
         ),
     ],
     [
