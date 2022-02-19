@@ -93,7 +93,7 @@ HIGHLIGHTS 👇
 
 🍂 You will get every possible thing related to CBSE ,JEE and NEET exams here.
 
-**FOR WHAT YOU ARE WAITING NOW❔**
+*FOR WHAT ARE YOU WAITING NOW❔*
 
 *GO TO THE BUTTONS BELOW TO ACCESS ALL EDUCATIONAL STUFFS💝✨.*
 """
