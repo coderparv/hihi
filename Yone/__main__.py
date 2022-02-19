@@ -87,7 +87,7 @@ PM_START_TEXT = """ Hello student *{}*,
 My Self [XYZ BOOKS🤖](https://t.me/codesfru/35) 
 made for your service related to educational sort.
 
-HIGLIGHTS 👇
+HIGHLIGHTS 👇
 
 ‣ Updating you on latest books posted.
 ‣ You will get every possible thing related to CBSE , JEE and NEET exams here .
@@ -225,12 +225,13 @@ def yone_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text="""Hello *{}*, My name is *{}*. I MADE FOR YOU WITH LOTS OF LOVE💚💙💜🖤❤️🧡💛 and hard work🔥 .
+            text="""Hello *{}*, My name is *{}*. 
+I MADE FOR YOU WITH LOTS OF LOVE💚💙💜🖤❤️🧡💛 and hard work🔥 -
             \n 🎐 Free premium study stuff for you.
             \n 🎐 Act as a versatile source of materials and study stuff for CBSE .JEE AND NEET
             \n 🎐 please share me with you friend by copying this link 👉 https://t.me/xyzbookbot?startgroup=true 🍫
             \n 🎐 I will be keep updating you just keep me on pin in your chat.
-            \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Link Below*""".format(
+            \n\n*If For more info and support check the links below don't forget to check LINK BOX🔗🎁*""".format(
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -245,6 +246,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
                      InlineKeyboardButton(text="Creator🇮🇳", url="t.me/ALivefru"),
                    ],
                    [
+                    InlineKeyboardButton(text="THE LINK BOX🎁", url="t.me/xyzlinkbox"),
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
                    ]
                 ]
