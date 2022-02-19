@@ -89,9 +89,9 @@ made for your service related to educational sort.
 
 HIGHLIGHTS 👇
 
-🍂 Connected with 100+ study channls Updating you on the latest books and materials posted.
+🍂 Connected with 100+ study channels Updating you on the latest books and the materials posted.
 
-🍂 You will get every possible thing related to CBSE , JEE and NEET exams here.
+🍂 You will get every possible thing related to CBSE ,JEE and NEET exams here.
 
 **FOR WHAT YOU ARE WAITING NOW❔**
 
