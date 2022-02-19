@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello student *{}*, 
+PM_START_TEXT = """ Hello student🧑‍🎓👩‍🎓 *{}*, 
 IT'S your [XYZ BOOKS🤖](https://t.me/codesfru/35) 
 made for your service related to educational sort.
 
