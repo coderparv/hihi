@@ -84,15 +84,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ Hello student *{}*, 
-My Self [XYZ BOOKS🤖](https://t.me/codesfru/35) 
+IT'S your [XYZ BOOKS🤖](https://t.me/codesfru/35) 
 made for your service related to educational sort.
 
 HIGHLIGHTS 👇
 
-‣ Updating you on latest books posted.
-‣ You will get every possible thing related to CBSE , JEE and NEET exams here .
+🍂 Connected with 100+ study channls Updating you on the latest books and materials posted.
 
-NOW WHY ARE YOU WAITING?
+🍂 You will get every possible thing related to CBSE , JEE and NEET exams here.
+
+**FOR WHAT YOU ARE WAITING NOW❔**
 
 *GO TO THE BUTTONS BELOW TO ACCESS ALL EDUCATIONAL STUFFS💝✨.*
 """
@@ -226,7 +227,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
     if query.data == "yone_":
         query.message.edit_text(
             text="""Hello *{}*, My name is *{}*. 
-I MADE FOR YOU WITH LOTS OF LOVE💚💙💜🖤❤️🧡💛 and hard work🔥 -
+I MADE FOR YOU WITH LOTS OF LOVE🌷💛 and hard work🔥 -
             \n 🎐 Free premium study stuff for you.
             \n 🎐 Act as a versatile source of materials and study stuff for CBSE .JEE AND NEET
             \n 🎐 please share me with you friend by copying this link 👉 https://t.me/xyzbookbot?startgroup=true 🍫
