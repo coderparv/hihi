@@ -83,13 +83,16 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello student *{}*, My name is *{}*! 
- made for your service related to education sort.
-I am here with amazing functions 👇
-‣ Updating you on latest books posted
+PM_START_TEXT = """ Hello student *{}*, My name is My name is XYZ BOOKS [🤖](https://t.me/codesfru/35) 
+made for your service related to educational sort.
+
+HIGLIGHTS 👇
+
+‣ Updating you on latest books posted.
 ‣ You will get every possible thing related to CBSE , JEE and NEET exams here .
 
 NOW WHY ARE YOU WAITING?
+
 *GO TO THE BUTTONS BELOW TO ACCESS ALL EDUCATIONAL STUFFS💝✨.*
 """
 
