@@ -83,7 +83,8 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello student *{}*, My name is My name is [XYZ BOOKS🤖](https://t.me/codesfru/35) 
+PM_START_TEXT = """ Hello student *{}*, 
+My Self [XYZ BOOKS🤖](https://t.me/codesfru/35) 
 made for your service related to educational sort.
 
 HIGLIGHTS 👇
@@ -172,13 +173,13 @@ def start(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="✔️JEE XYZ", callback_data="https://t.me/jee_xyz"),
+        InlineKeyboardButton(text="✔️JEE XYZ", url="https://t.me/jee_xyz"),
         InlineKeyboardButton(
             text="✔️NEET XYZ", url="https://t.me/NEET_XYZ"
         ),
     ],
     [
-        InlineKeyboardButton(text="more", callback_data="yone_"),
+        InlineKeyboardButton(text="Click on me for more✨", callback_data="yone_"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
@@ -224,14 +225,11 @@ def yone_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "yone_":
         query.message.edit_text(
-            text="""Hello *{}*, My name is *{}*. A Powerful Telegram Group Management Bot built to help you manage Group easily.
-            \n ‣ I can Restrict Users.
-            \n ‣ I can Greet Users with customizable welcome message and even set a group rules
-            \n ‣ I have an advanced Anti-Flood System which will help you to safe group from Spammmer.
-            \n ‣ I can Warn Users until they reach max Warns, with each predefined actions such as Ban, Mute and Kick etc.
-            \n ‣ I have Note Keeping System, Blacklists, And even Predetermined replies on certain keywords.
-            \n ‣ I check Admins Permissions before perform any Command and more Stuffs.
-            \n ‣ I have an advanced Artificial Chatbot System, so can talk with users like humans.
+            text="""Hello *{}*, My name is *{}*. I MADE FOR YOU WITH LOTS OF LOVE💚💙💜🖤❤️🧡💛 and hard work🔥 .
+            \n 🎐 Free premium study stuff for you.
+            \n 🎐 Act as a versatile source of materials and study stuff for CBSE .JEE AND NEET
+            \n 🎐 please share me with you friend by copying this link 👉 https://t.me/xyzbookbot?startgroup=true 🍫
+            \n 🎐 I will be keep updating you just keep me on pin in your chat.
             \n\n*If you have any Question, You can join Support Chat. My Developer Team will Answer. Check Link Below*""".format(
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
             parse_mode=ParseMode.MARKDOWN,
@@ -239,8 +237,12 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/Yone_Support"),
-                     InlineKeyboardButton(text="News", url="t.me/Yone_Updates"),
+                     InlineKeyboardButton(text="Donwload our App⬇️", url="t.me/bookstoreplus"),
+                     InlineKeyboardButton(text="🄳ivineӼNet", url="t.me/divinexnet"),
+                   ],
+                     [
+                     InlineKeyboardButton(text="XYZ BOOKS SUPPORT💬", url="t.me/+-I2sy04aeEtjOTZl"),
+                     InlineKeyboardButton(text="Creator🇮🇳", url="t.me/ALivefru"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
@@ -255,22 +257,22 @@ def yone_about_callback(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="➕️ Add me to your chat ➕️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="BOOK STORE➕", url=f"https://t.me/+YVBwIkHbl7FhMjZl"),
     ],
     [
-        InlineKeyboardButton(text="Admin", callback_data="admin_back"),
+        InlineKeyboardButton(text=" ☑️CBSE XYZ", url="https://t.me/cbse_xyz"),
         InlineKeyboardButton(
-            text="Users", callback_data="user_back"
+            text="💝CBSE EXCLUSIVE", url="https://t.me/xyz_cbse"
         ),
     ],
     [
-        InlineKeyboardButton(text="Tools", callback_data="tools_back"),
+        InlineKeyboardButton(text="✔️JEE XYZ", url="https://t.me/jee_xyz"),
         InlineKeyboardButton(
-            text="Bot Info", callback_data="yone_"
+            text="✔️NEET XYZ", url="https://t.me/NEET_XYZ"
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="Click on me for more✨", callback_data="yone_"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
