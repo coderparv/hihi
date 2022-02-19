@@ -178,7 +178,7 @@ def start(update: Update, context: CallbackContext):
         ),
     ],
     [
-        InlineKeyboardButton(text="Helps & Commands❔", callback_data="help_back"),
+        InlineKeyboardButton(text="more", callback_data="yone_"),
     ],
 ]),
                 parse_mode=ParseMode.MARKDOWN,
