@@ -230,7 +230,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
 I MADE FOR YOU WITH LOTS OF LOVE🌷💛 and hard work🔥 -
             \n 🎐 Free premium study stuff for you.
             \n 🎐 Act as a versatile source of materials and study stuff for CBSE .JEE AND NEET
-            \n 🎐 please share me with you friend by copying this link 👉 https://t.me/xyzbookbot?startgroup=true 🍫
+            \n 🎐 please share me with you friend by copying this link 👉 https://t.me/xyzbooksbot?startgroup=true 🍫
             \n 🎐 I will be keep updating you just keep me on pin in your chat.
             \n\n*If For more info and support check the links below don't forget to check LINK BOX🔗🎁*""".format(
                         escape_markdown(first_name), escape_markdown(context.bot.first_name)),
@@ -244,7 +244,7 @@ I MADE FOR YOU WITH LOTS OF LOVE🌷💛 and hard work🔥 -
                    ],
                      [
                      InlineKeyboardButton(text="XYZ BOOKS SUPPORT💬", url="t.me/+-I2sy04aeEtjOTZl"),
-                     InlineKeyboardButton(text="Creator🇮🇳", url="t.me/ALivefru"),
+                     InlineKeyboardButton(text="Creator🇮🇳", url="t.me/lifefru"),
                    ],
                    [
                     InlineKeyboardButton(text="THE LINK BOX🎁", url="t.me/xyzlinkbox"),
